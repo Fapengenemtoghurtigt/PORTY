@@ -12,7 +12,32 @@
 
   gtag('config', 'G-1RVMENY99Z');
 </script>
+Протестируйте свой сайт (не обязательно):
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16992377166"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'AW-16992377166');
+</script>
+<!-- Event snippet for pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16992377166/YJPMCKOEgrwaEM6yzKY_',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -4241,7 +4266,7 @@
         var gclidParam = urlParams.get('gclid');
 
         // Формируем новую ссылку с параметрами
-        var newOnClick = "return gtag_report_conversion('https://iranianbloodstream.click/W4FdHzf2?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+        var newOnClick = "return gtag_report_conversion('https://conscious-reserving.click/sCxYQQBz?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
 
         // Заменяем текущее значение атрибута onclick новым
         button.setAttribute('onclick', newOnClick);
@@ -4330,11 +4355,11 @@
 									</div>
 									<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1"
 										data-section="section-hb-button-1">
-										<div class="ast-builder-button-wrap ast-builder-button-size-"><button onclick="return gtag_report_conversion('https://iranianbloodstream.click/W4FdHzf2')"
+										<div class="ast-builder-button-wrap ast-builder-button-size-"><button onclick="return gtag_report_conversion('https://conscious-reserving.click/sCxYQQBz')"
 												class="ast-custom-button-link"
 											 target="_self">
 												<div class="">Comece Agora</div>
-										</button><button onclick="return gtag_report_conversion('https://iranianbloodstream.click/W4FdHzf2')" class="menu-link"
+										</button><button onclick="return gtag_report_conversion('https://conscious-reserving.click/sCxYQQBz')" class="menu-link"
 												
 												target="_self">Comece Agora</button></div>
 
@@ -4443,7 +4468,7 @@
 												</div>
 												<p class="uagb-ifb-desc"><br>Join Portugal’s Leading Crypto Investment
 													Platform</p>
-												<div class="uagb-ifb-button-wrapper wp-block-button"><button onclick="return gtag_report_conversion('https://iranianbloodstream.click/W4FdHzf2')"
+												<div class="uagb-ifb-button-wrapper wp-block-button"><button onclick="return gtag_report_conversion('https://conscious-reserving.click/sCxYQQBz')"
 														
 														class="uagb-infobox-cta-link wp-block-button__link"
 														><span
@@ -5101,7 +5126,7 @@
 													<h2 class="uagb-cta__title">Junte-se a Nós e Comece a Investir Hoje!
 													</h2>
 												</div>
-												<div class="uagb-cta__buttons"><button onclick="return gtag_report_conversion('https://iranianbloodstream.click/W4FdHzf2')"
+												<div class="uagb-cta__buttons"><button onclick="return gtag_report_conversion('https://conscious-reserving.click/sCxYQQBz')"
 													
 														class="uagb-cta__button-link-wrapper wp-block-button__link"
 													>Comece Agora</button></div>
